@@ -34,9 +34,9 @@ python indexing_v2.py
 streamlit run app.py
 
 ## Project Structure
-Rag/
-├── docs/              ← drop your PDFs here
-├── faiss_index_v2/    ← auto-generated vector store
-├── indexing_v2.py     ← indexes all PDFs into FAISS
-├── rag_chain_v2.py    ← RAG chain with ask_question()
-└── app.py             ← Streamlit web UI
+
+- `docs/` — drop your PDFs here
+- `faiss_index_v2/` — auto-generated vector store
+- `indexing_v2.py` — indexes all PDFs into FAISS
+- `rag_chain_v2.py` — RAG chain with ask_question()
+- `app.py` — Streamlit web UI
